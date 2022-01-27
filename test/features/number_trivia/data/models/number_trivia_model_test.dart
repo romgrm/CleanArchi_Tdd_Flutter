@@ -15,10 +15,6 @@ void main() {
   test(
     'should be a subclass of NumberTrivia Entity',
     () async {
-      // arrange
-
-      // act
-
       // assert
       expect(tNumberTriviaModel, isA<NumberTrivia>());
     },

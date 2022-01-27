@@ -8,7 +8,6 @@ import 'package:tdd_flutter/features/number_trivia/domain/repositories/number_tr
 import 'package:tdd_flutter/features/number_trivia/domain/usecases/get_random_number_trivia.dart';
 import 'get_concrete_number_trivia_test.mocks.dart';
 
-@GenerateMocks([NumberTriviaRepository])
 void main() {
   final numberTriviaRepositoryMock = MockNumberTriviaRepository();
   final usecase = GetRandomNumberTrivia(numberTriviaRepositoryMock);
